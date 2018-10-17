@@ -9,81 +9,163 @@
 </head>
 
 <body>
-    <article class="container">
-        <!-- Callout -->
-        <section class="callout">
-            <h1>The finest whiskeys delivered to your doorstep.</h1>
-            <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s>€19.99</s> <strong><mark>First one is free!</mark></strong></p>
-            <p><button class="btn btn-lg btn-success">Sign Up!</button></p> 
-            <p class="text-muted"><small>You must be over 18 to avail of this offer. Terms & conditions apply.</small></p>
-        </section>
-        <!-- /.callout -->
-        <hr>
+    <!--Nav-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+                Whiskey Drop
+            </a>
+        </div>
+    
+    <!--Navbar-->
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="">About</a></li>
+        <li class="visible-xs"><a href="">Sign In</a></li>
+    </ul>
+    
+<!--Message-->
+<div class="navbar-header navbar-right hidden-xs">
+    <a href="/login" class="btn btn-default navbar-btn">Sign In</a>
+    <p class="navbar-text"><i>Great whiskey delivered to your door</i></p>
+</div>
+</nav>
+<article class="container">
+    <!--Alert-->
+    <div class="row">
+        <div class="col-xs">
+            <div class="alert alert-warning">
+                <strong>Sale Now On!</strong> We've got a sale on now. Get a 12 month subscription for the price of 6 months. <a href="">See here for more details</a>
+            </div>
+        </div>
+    </div>
+    <!-- Callout -->
+    <div class="row">
+        <div class="col-xs-12">
+            <section class="callout jumbotron text-center">
+                <h1>The finest whiskeys delivered to your doorstep.</h1>
+                <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">€19.99</s> <span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
+                <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
+                <p class="text-muted"><small>You must be over 18 to avail of this offer. Terms & conditions apply.</small></p>
+            </section>
+        </div>
+    </div>
+    <!-- /.callout -->
 
-        <!-- Quotes -->
-        <section class="quotes">
-            <h2 class="text-uppercase">Quotes:</h2>
-            <blockquote class="quote">
-                <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                <p>- Jane Doe</p>
-            </blockquote>
-            <blockquote class="quote">
-                <p>I haven't been sober for months!</p>
-                <p>- Jane Doe</p>
-            </blockquote>
+
+    <!-- Quotes -->
+    <section class="quotes">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="https://orig00.deviantart.net/bd97/f/2012/358/8/6/homer_simpson_by_meganwawesome-d5p1yie.jpg" class="img-circle media-object hidden-xs" height=100 width=100>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="media-body">
+                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                        <p>- Homer J. Simpson</p>
+                        </blockquote>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="https://orig00.deviantart.net/bd1a/f/2011/135/4/f/uncharted_3__drake__s_deception_by_leaperoffaith-d3gfqlo.png" class="img-circle media-object hidden-xs" height=100 width=100>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="media-body">
+                                <blockquote class="quote">
+                                    <p>I haven't been sober for months!</p>
+                                    <p>- Nathan Drake</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                
+    
         </section>
         <!-- /.quotes -->
-        <hr>
+        
 
-        <!-- Features -->
-        <section class="features">
-            <h2>Features:</h2>
+<!-- Features -->
+<div class="row">
+    <section class="features">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h2>Features:</h2>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="feature">
+            <h3><span class="glyphicon glyphicon-shopping-cart hidden-xs">Feature 1<span class="label label-success">New!</span></span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a><button class="btn btn-sm btn-default">Read more</button></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="feature">
-                <h3>Feature 1</h3>
+                <h3><span class="glyphicon glyphicon-credit-card hidden-xs">Feature 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <a><button class="btn btn-sm btn-default">Read more</button></a>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 hidden-md col-lg-4">
             <div class="feature">
-                <h3>Feature 2</h3>
+                <h3><span class="glyphicon glyphicon-gift hidden-xs">Feature 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <a><button class="btn btn-sm btn-default">Read more</button></a>
             </div>
-            <div class="feature">
-                <h3>Feature 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a><button class="btn btn-sm btn-default">Read more</button></a>
-            </div>
-                </section>
-                
-                <section class="Monthly Favourites">
-                    <table class="table table-dark">
-  <thead>
-      <h3>Whiskeys Of The Month</h3>
-    <tr>
-    <th scope="col">Month</th>
-      <th scope="col">Name</th>
-      <th scope="col">Origin</th>
-          </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">April</th>
-      <td>Proper</td>
-      <td>Ireland</td>
-    </tr>
-    <tr>
-      <th scope="row">May</th>
-      <td>Jameson</td>
-      <td>Ireland</td>
-    </tr>
-    <tr>
-      <th scope="row">June</th>
-      <td>Bushmills</td>
-      <td>Ireland</td>
-          </tr>
-  </tbody>
-</table>
-                </section>
+        </div>
+    </div>
+    </section>
+
+        <section class="Monthly Favourites">
+            <table class="table table-dark">
+                <thead>
+                    <h3>Monthly Favourites</h3>
+                    <tr>
+                        <th scope="col">Month</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Origin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">April</th>
+                        <td>Proper</td>
+                        <td>Ireland</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">May</th>
+                        <td>Jameson</td>
+                        <td>Ireland</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">June</th>
+                        <td>Bushmills</td>
+                        <td>Ireland</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         <!-- /.features -->
     </article>
 </body>
